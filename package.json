@@ -1,0 +1,36 @@
+{
+  "name": "youtube-media-controller",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production rollup -c",
+    "start": "rollup -c -w"
+  },
+  "devDependencies": {
+    "@mdi/js": "^6.4.95",
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "cross-env": "^7.0.3",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-svelte3": "^3.2.1",
+    "lodash.debounce": "^4.0.8",
+    "mdi-svelte": "^1.1.2",
+    "prettier": "^2.4.1",
+    "prettier-plugin-svelte": "^2.4.0",
+    "rollup": "^2.59.0",
+    "rollup-plugin-copy": "^3.4.0",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-delete": "^2.0.0",
+    "rollup-plugin-generate-html-template": "^1.7.0",
+    "rollup-plugin-svelte": "^7.1.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "style-loader": "^3.3.1",
+    "stylelint": "^14.0.1",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard": "^23.0.0",
+    "svelte": "^3.44.1",
+    "svelte-preprocess": "^4.9.8"
+  }
+}
